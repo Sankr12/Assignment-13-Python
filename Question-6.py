@@ -6,9 +6,7 @@ print()
 firstlist = ["Java", "Python", "SQL"]
 secondlist = ["C", "Cpp", "NoSQL"]
 
-firstlist.append(secondlist[0])
-firstlist.append(secondlist[1])
-firstlist.append(secondlist[2])
-
+for items in secondlist:
+    firstlist.append(items)
 print(firstlist)
 print()

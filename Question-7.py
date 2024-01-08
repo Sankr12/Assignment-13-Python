@@ -3,11 +3,9 @@
 
 print()
 thislist = ["Java", "SQL", "C", "Reactnative", "Javascript", "Python"]
-i=0
 
-while i<len(thislist):
-    print(thislist[i],end=' ')
-    i+=1
+for i in range(0,len(thislist)):
+    print(thislist[i])
     
 print()
 print()
